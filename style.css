@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  font-family: "Pacifico", cursive;
+}
+.page1, .page3 {
+  background: linear-gradient(180deg, rgb(255, 166, 0), rgb(255, 94, 0));
+}
+.page2 {
+  background: linear-gradient(180deg, rgb(255, 94, 0), rgb(255, 166, 0));
+}

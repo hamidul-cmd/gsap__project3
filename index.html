@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="h-full w-full">
+    <main>
+        <div class="page1 w-full h-[100vh]">
+            <nav class="w-full flex justify-evenly items-center p-5">
+                <a href="" class="text-xl font-bold p-2 text-white tracking-wider">Fanta</a>
+                <ul class="flex gap-5 text-lg font-medium text-white tracking-wider">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <i class="ri-menu-3-line text-2xl font-bold text-white cursor-pointer"></i>
+            </nav>
+            <div class="flex justify-center items-center h-[90%]">
+                <h1 class="text-[20vw] text-center font-semibold tracking-widest text-white select-none">Fanta</h1>
+                <img src="Assets/fanta.png" alt="" class="fanta absolute h-[75%] z-20 transition-all duration-100 ease-linear">
+                <img src="Assets/orange2.png" alt="" class="lemon h-[45%] absolute top-[6%] left-[25%] z-10 transition-all duration-100 ease-linear">
+                <img src="Assets/leaf.webp" alt="" class="leaf1 absolute h-[40%] left-0 rotate-45 top-[30%] transition-all duration-100 ease-linear z-10">
+                <img src="Assets/leaf2.png" alt="" class="leaf2 absolute h-[40%] right-[5%] top-[50%] transition-all duration-100 ease-linear">
+                <img src="Assets/coconoutleaf.png" alt="" class="coconat absolute right-0 top-0 transition-all duration-100 ease-linear">
+                <img src="Assets/orange.webp" alt="" class="lemon2 absolute h-[40%] top-[60%] left-[50%] z-30 transition-all duration-100 ease-linear">
+            </div>
+        </div>
+        <div class="page2 h-[100vh] w-full flex justify-evenly items-center">
+            <div class="self-end">
+                <div class="h-[500px] w-[500px] bg-[#e0bd8fcb] rounded-full rotate-x-[-80deg]">
+
+                </div>
+            </div>
+            <div class="w-[50%]">
+                <h1 class="text-[7vw] text-white font-semibold tracking-wider mb-10 relative z-20">Flaver changed</h1>
+                <p class="text-lg font-medium tracking-widest">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dicta voluptatum tempora tempore maxime
+                    enim iusto quod a expedita dolores consectetur, debitis quisquam harum dolorem minus delectus
+                    aliquam neque quaerat velit quae corporis qui. In sit provident eum nam! Temporibus amet nemo nobis
+                    inventore consectetur rerum aperiam, illo cupiditate possimus nesciunt fuga reprehenderit, sapiente
+                    quam rem suscipit dolores quo molestiae similique pariatur commodi corporis cumque distinctio. Quo
+                    nemo, libero nihil vero repellat tempora vitae. Reiciendis rerum voluptatum enim. Natus quo
+                    distinctio iste quisquam deleniti laborum aliquam voluptatum, excepturi officia voluptatem impedit
+                    commodi maiores veniam officiis ipsam blanditiis, et fugiat deserunt? At.</p>
+            </div>
+        </div>
+        <div class="page3 h-[100vh] w-full flex px-[100px] gap-[50px] justify-center items-center overflow-hidden">
+            <div class="w-[45%] h-[80%] bg-white rounded-3xl flex items-center justify-end flex-col gap-10 relative">
+                <img src="Assets/cocacola.png" alt="" class="h-[65%] cola absolute top-[5%] z-20 transition-all duration-100 ease-linear rotate-0">
+                <img src="Assets/lemon.webp" alt="" class="absolute top-[-30%] scale-75 z-10  left-1/2 translate-x-[-50%] page3__lemon transition-all duration-100 ease-linear">
+                <div>
+                    <h2 class="text-5xl font-semibold tracking-wider mb-5">cocacola</h2>
+                    <a href="" class="block py-5 px-8 bg-[#ff9500] text-white text-xl font-semibold text-center rounded-4xl tracking-wider mb-10">Bay now</a>
+                </div>
+            </div>
+            <div class="w-[45%] h-[80%] bg-white rounded-3xl flex justify-center items-end">
+                <div>
+                    <h2 class="text-5xl font-semibold tracking-wider mb-5">Fanta</h2>
+                    <a href="" class="block py-5 px-8 bg-[#ff9500] text-white text-xl font-semibold text-center rounded-4xl tracking-wider mb-10">Bay now</a>
+                </div>
+            </div>
+            <div class="w-[45%] h-[80%] bg-white rounded-3xl flex items-center justify-end flex-col gap-10 relative">
+                <img src="Assets/pepsi.png" alt="" class="h-[65%] papsi absolute top-[5%] z-20 transition-all duration-100 ease-linear rotate-0">
+                <img src="Assets/lemon.webp" alt="" class="absolute top-[-30%] scale-75 z-10 left-1/2 translate-x-[-50%] page3__lemon transition-all duration-100 ease-linear">
+                <div>
+                    <h2 class="text-5xl font-semibold tracking-wider mb-5">papsi</h2>
+                    <a href="" class="block py-5 px-8 bg-[#ff9500] text-white text-xl font-semibold text-center rounded-4xl tracking-wider mb-10">Bay now</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
